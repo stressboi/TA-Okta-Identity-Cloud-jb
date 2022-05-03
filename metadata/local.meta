@@ -1,0 +1,92 @@
+[app/install/install_source_checksum]
+version = 8.2.4
+modtime = 1640552664.647963000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-Okta_Identity_Cloud_for_Splunk%23configs%2Fconf-ta_okta_identity_cloud_for_splunk_account%3Asplunk1%60%60splunk_cred_sep%60%601%3A]
+owner = admin
+version = 8.2.4
+modtime = 1640634017.109465000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-Okta_Identity_Cloud_for_Splunk%23configs%2Fconf-ta_okta_identity_cloud_for_splunk_account%3Asplunk1%60%60splunk_cred_sep%60%602%3A]
+owner = admin
+version = 8.2.4
+modtime = 1640634017.118043000
+
+[ta_okta_identity_cloud_for_splunk_account/splunk1]
+owner = admin
+version = 8.2.4
+modtime = 1640634017.126210000
+
+[inputs/okta_identity_cloud%3A%2F%2Fokta_logs]
+owner = admin
+version = 8.2.4
+modtime = 1645485797.584596000
+
+[inputs/okta_identity_cloud%3A%2F%2Fokta_users]
+owner = admin
+version = 8.2.4
+modtime = 1645485786.388468000
+
+[inputs/okta_identity_cloud%3A%2F%2Fokta_groups]
+owner = admin
+version = 8.2.4
+modtime = 1640634121.902006000
+
+[inputs/okta_identity_cloud%3A%2F%2Fokta_apps]
+owner = admin
+version = 8.2.4
+modtime = 1640634109.000338000
+
+[indexes/gurinder_chromesec]
+owner = admin
+version = 8.2.4
+modtime = 1649432485.407696000
+
+[ta_okta_identity_cloud_for_splunk_settings/additional_parameters]
+version = 8.2.4
+modtime = 1649432536.413896000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-Okta_Identity_Cloud_for_Splunk%23configs%2Fconf-ta_okta_identity_cloud_for_splunk_account%3Achromesec1%60%60splunk_cred_sep%60%601%3A]
+owner = admin
+version = 8.2.4
+modtime = 1649432846.972369000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-Okta_Identity_Cloud_for_Splunk%23configs%2Fconf-ta_okta_identity_cloud_for_splunk_account%3Achromesec1%60%60splunk_cred_sep%60%602%3A]
+owner = admin
+version = 8.2.4
+modtime = 1649432846.981177000
+
+[ta_okta_identity_cloud_for_splunk_account/chromesec1]
+owner = admin
+version = 8.2.4
+modtime = 1649432846.988352000
+
+[inputs/okta_identity_cloud%3A%2F%2Fchromesec_logs]
+owner = admin
+version = 8.2.4
+modtime = 1649432873.554734000
+
+[lookups/okta_system_log_lookup.csv]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 8.2.4
+modtime = 1651594271.769462000
+
+[props/OktaIM2%3Alog/LOOKUP-okta_system_log_auto_lookup]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 8.2.4
+modtime = 1651608514.942010000
+
+[views/adminsecurity]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 8.2.4
+modtime = 1651608150.466471000
+
+[nav/default]
+version = 8.2.4
+modtime = 1651608116.561572000

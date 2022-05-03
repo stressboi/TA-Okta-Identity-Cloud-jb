@@ -1,0 +1,12 @@
+id,name,label,created,lastUpdated,status,signOnMode
+0oa283t56nMlnL3tp1d7,scaleft,"Okta Advanced Server Access","2021-12-27T20:19:54.000Z","2022-04-13T19:01:24.000Z",ACTIVE,"SAML_2_0"
+0oa281whwdm6m87GR1d7,splunk,"Splunk Enterprise","2021-12-27T00:07:09.000Z","2022-01-25T04:53:36.000Z",ACTIVE,"SAML_2_0"
+0oa2emzzbf3AKei5c1d7,"oidc_client","Web client","2022-01-25T04:30:25.000Z","2022-01-25T04:30:26.000Z",ACTIVE,"OPENID_CONNECT"
+0oa2c7ncvrweNotLB1d7,"active_directory","workforce.biz","2022-01-14T15:24:48.000Z","2022-01-17T23:54:21.000Z",ACTIVE,null
+0oa28696zkAbakJXH1d7,salesforce,"Salesforce.com","2021-12-28T19:47:30.000Z","2021-12-30T00:17:29.000Z",ACTIVE,"SAML_2_0"
+0oa2864hxiGNgYxng1d7,salesforce,"Salesforce.com","2021-12-28T19:32:55.000Z","2021-12-28T19:32:56.000Z",ACTIVE,"BROWSER_PLUGIN"
+0oa281zhxweyak1iW1d7,flow,"Okta Workflows OAuth","2021-12-26T20:05:23.000Z","2021-12-26T20:05:23.000Z",ACTIVE,"OPENID_CONNECT"
+0oa281zhwvVZUwG6r1d7,"okta_flow_sso","Okta Workflows","2021-12-26T20:05:20.000Z","2021-12-26T20:05:20.000Z",ACTIVE,"OPENID_CONNECT"
+0oa281qsi6LPT1d0G1d7,"okta_enduser","Okta Dashboard","2021-12-26T20:05:14.000Z","2021-12-26T20:05:14.000Z",ACTIVE,"OPENID_CONNECT"
+0oa281qshlRK6vTMx1d7,"okta_browser_plugin","Okta Browser Plugin","2021-12-26T20:05:14.000Z","2021-12-26T20:05:14.000Z",ACTIVE,"OPENID_CONNECT"
+0oa281qsfglx7o5ai1d7,saasure,"Okta Admin Console","2021-12-26T20:05:12.000Z","2021-12-26T20:05:14.000Z",ACTIVE,"OPENID_CONNECT"

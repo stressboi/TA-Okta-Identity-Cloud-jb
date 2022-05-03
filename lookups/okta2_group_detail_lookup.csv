@@ -1,0 +1,39 @@
+id,type,name,description,usersCount,appsCount,groupPushMappingsCount,"app_id"
+00g2eb9ms9sy8l2EU1d7,"OKTA_GROUP",Quarantine,"No access to nothin",0,0,0,
+00g2c7tbgvWZMuCsC1d7,"APP_GROUP",Superadmins,"workforce.biz/Workforce Groups/Superadmins",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7yirmt4DjqmD1d7,"APP_GROUP",Splunk,"workforce.biz/Workforce Groups/Splunk",1,1,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbfvwHvmd1V1d7,"APP_GROUP","Schema Admins","workforce.biz/Users/Schema Admins",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbh76rsNjKE1d7,"APP_GROUP","Sales Managers","workforce.biz/Workforce Groups/Sales Managers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbgfv3Fx9Ok1d7,"APP_GROUP","Read-only Domain Controllers","workforce.biz/Users/Read-only Domain Controllers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbg916oubk21d7,"APP_GROUP","RAS and IAS Servers","workforce.biz/Users/RAS and IAS Servers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbgluPAMSpN1d7,"APP_GROUP","Protected Users","workforce.biz/Users/Protected Users",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbh58tDmykG1d7,"APP_GROUP","Operations Managers","workforce.biz/Workforce Groups/Operations Managers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbh3nfGnJY41d7,"APP_GROUP","Marketing Managers","workforce.biz/Workforce Groups/Marketing Managers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbgnFTbuq4X1d7,"APP_GROUP","Key Admins","workforce.biz/Users/Key Admins",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbh1PwTBZJC1d7,"APP_GROUP","IT Managers","workforce.biz/Workforce Groups/IT Managers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbgxhWAbLwl1d7,"APP_GROUP","HR Managers","workforce.biz/Workforce Groups/HR Managers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbg7TwEOfwF1d7,"APP_GROUP","Group Policy Creator Owners","workforce.biz/Users/Group Policy Creator Owners",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbghgS4Ihe01d7,"APP_GROUP","Enterprise Read-only Domain Controllers","workforce.biz/Users/Enterprise Read-only Domain Controllers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbgpXO1g7qj1d7,"APP_GROUP","Enterprise Key Admins","workforce.biz/Users/Enterprise Key Admins",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbfxRtHaWjp1d7,"APP_GROUP","Enterprise Admins","workforce.biz/Users/Enterprise Admins",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbg3ITDBPGn1d7,"APP_GROUP","Domain Users","workforce.biz/Users/Domain Users",1,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbg5Izb8K291d7,"APP_GROUP","Domain Guests","workforce.biz/Users/Domain Guests",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbftUmpJKVo1d7,"APP_GROUP","Domain Controllers","workforce.biz/Users/Domain Controllers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbfrBd9kuhr1d7,"APP_GROUP","Domain Computers","workforce.biz/Users/Domain Computers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbg1XR4NAFz1d7,"APP_GROUP","Domain Admins","workforce.biz/Users/Domain Admins",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbgtdjfKjTL1d7,"APP_GROUP",DnsUpdateProxy,"workforce.biz/Users/DnsUpdateProxy",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbgrd95XlHF1d7,"APP_GROUP",DnsAdmins,"workforce.biz/Users/DnsAdmins",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbgdKt16Hq61d7,"APP_GROUP","Denied RODC Password Replication Group","workforce.biz/Users/Denied RODC Password Replication Group",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbgjNlHfGGV1d7,"APP_GROUP","Cloneable Domain Controllers","workforce.biz/Users/Cloneable Domain Controllers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbfzvaP3bGh1d7,"APP_GROUP","Cert Publishers","workforce.biz/Users/Cert Publishers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbgbn9huiBt1d7,"APP_GROUP","Allowed RODC Password Replication Group","workforce.biz/Users/Allowed RODC Password Replication Group",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2c7tbgzEmAymx01d7,"APP_GROUP","Accounting Managers","workforce.biz/Workforce Groups/Accounting Managers",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2cj96d10tKUlOQ1d7,"OKTA_GROUP","Okta_AD_Sync",null,2,0,1,
+00g2cev39vw78cZhL1d7,"OKTA_GROUP","ASA Users","Folks that need access to servers protected by ASA",1,1,0,
+00g2cf84bqpRSAQJP1d7,"APP_GROUP","api_users",null,0,0,0,0oa283t56nMlnL3tp1d7
+00g2c7y654Uhi6nTg1d7,"APP_GROUP","Splunk Users","workforce.biz/Workforce Groups/Splunk Users",0,0,0,0oa2c7ncvrweNotLB1d7
+00g2865pnnaQ6e4B71d7,"OKTA_GROUP",sfdc,"Group that allows for sfdc access",7,1,0,
+00g281qs2xLvuWVnO1d7,"OKTA_GROUP",brokta,"Group used for Splunk access",2,1,0,
+00g285jwujHMXh9BR1d7,"OKTA_GROUP","time_restrict",null,0,1,0,
+00g281taqbrFKx6js1d7,"OKTA_GROUP","My_First_Group",null,0,0,0,
+00g281qsfpYVev9Sq1d7,"BUILT_IN",Everyone,"All users in your organization",13,0,0,

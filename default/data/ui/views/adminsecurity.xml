@@ -1,0 +1,68 @@
+<form theme="dark">
+  <label>Admin &amp; Security Log Explorer</label>
+  <fieldset submitButton="false">
+    <input type="time" token="field1">
+      <label></label>
+      <default>
+        <earliest>-24h@h</earliest>
+        <latest>now</latest>
+      </default>
+    </input>
+    <input type="multiselect" token="field2">
+      <label>Event Category</label>
+      <choice value="admin_interest=1">Admin Events</choice>
+      <choice value="security_interest=1">Security Events</choice>
+      <choice value="(admin_interest=0 AND security_interest=0)">Uncategorized Events</choice>
+      <initialValue>admin_interest=1,security_interest=1</initialValue>
+      <delimiter> OR </delimiter>
+    </input>
+    <input type="multiselect" token="field3" searchWhenChanged="true">
+      <label>Event Type Tags</label>
+      <fieldForLabel>tags</fieldForLabel>
+      <fieldForValue>tags</fieldForValue>
+      <search>
+        <query>index=main sourcetype="OktaIM2:log" earliest=$field1.earliest$ latest=$field1.latest$| table event_type_tags| makemv delim="|" event_type_tags | stats values(event_type_tags) as tags | mvexpand tags</query>
+        <earliest>-30d@d</earliest>
+        <latest>now</latest>
+      </search>
+      <delimiter> OR </delimiter>
+      <valuePrefix>event_type_tags=*</valuePrefix>
+      <valueSuffix>*</valueSuffix>
+      <choice value="*">ALL</choice>
+      <initialValue>*</initialValue>
+    </input>
+    <input type="text" token="field4" searchWhenChanged="true">
+      <label>Text Search</label>
+      <default>*</default>
+      <initialValue>*</initialValue>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <table>
+        <search>
+          <query>index=main sourcetype="OktaIM2:log" $field4$ | table _time,actor.alternateId,displayMessage,eventType,event_type_tags,admin_interest,security_interest,event_type_description | makemv delim="|" event_type_tags | search (($field2$) AND ($field3$)) | rename actor.alternateId as actor, displayMessage as "Display Message", eventType as "Event Type", event_type_tags as "Event Type Tags", admin_interest as "Admin?", security_interest as "Security?" event_type_description as "Description"</query>
+          <earliest>$field1.earliest$</earliest>
+          <latest>$field1.latest$</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">20</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="percentagesRow">false</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+        <format type="color" field="Admin?">
+          <colorPalette type="list">[#53A051,#006D9C,#DC4E41]</colorPalette>
+          <scale type="threshold">1,2</scale>
+        </format>
+        <format type="color" field="Security?">
+          <colorPalette type="list">[#53A051,#DC4E41,#DC4E41]</colorPalette>
+          <scale type="threshold">1,2</scale>
+        </format>
+      </table>
+    </panel>
+  </row>
+</form>
